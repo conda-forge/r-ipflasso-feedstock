@@ -16,7 +16,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=ipflasso
-  license: GPL
+  license: GPL-2.0-or-later
   summary: The core of the package is cvr2.ipflasso(), an extension of glmnet to be used when
     the (large) set of available predictors is partitioned into several modalities which
     potentially differ with respect to their information content in terms of prediction.
